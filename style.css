@@ -1,0 +1,45 @@
+/* Stylesheet */
+
+body {
+	background-image: url(images/roulette.jpg);
+	background-size: cover;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#main {
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.95;
+	padding: 50px 0px 50px 0px;
+	width: 100%;
+}
+
+#dice {
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 10%;
+	font-family: Helvetica, sans-serif;
+	font-size: 120px;
+	margin: auto auto;
+	line-height: 200px;
+}
+
+button {
+	background-color: blue;
+	font-family: Helvetica, sans-serif;
+	margin-top: 50px;
+	padding: 10px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: royalblue;
+	cursor: pointer;
+}
